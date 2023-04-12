@@ -1,6 +1,7 @@
 body{
     background:radial-gradient(white,rgb(120, 117, 117));
     font-style:oblique;
+    border: 105px;
 }
 header, main{
     text-align: center;
