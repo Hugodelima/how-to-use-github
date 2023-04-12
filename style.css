@@ -1,7 +1,9 @@
 body{
+    margin: 0;
     background:radial-gradient(white,rgb(120, 117, 117));
     font-style:oblique;
-    border: 105px;
+    padding: 105px;
+    border: 20px solid rgb(97, 97, 96);
 }
 header, main{
     text-align: center;
