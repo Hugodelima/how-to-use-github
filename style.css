@@ -1,5 +1,8 @@
+body{
+    background:radial-gradient(white,rgb(120, 117, 117))
+}
 header, main{
- text-align: center;
+    text-align: center;
 }
 
 h1{
@@ -17,8 +20,11 @@ footer h4{
     text-align: center;
     align-items: center;
 }
+.title{
+    text-align: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
 .lista li{
-    align-items: none;
-    text-align: none;
-    background-color: aquamarine;
+    margin-left: 500px;
 }
