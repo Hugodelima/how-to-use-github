@@ -26,45 +26,48 @@
         <h4>Git ou GitHub?</h4>
         <p>Git e GitHub não são a mesma coisa. Git é o sistema de gerenciamento de versão gratuito e de código aberto criado por Linus Torvald, mesmo criador do Linux, em 2005. GitHub é a empresa que desenvolve soluções baseadas no Git, como a plataforma GitHub.com, que une o gerenciamento e hospedagem de código-fonte a funções de redes sociais, como feed, comunidades, fóruns, etc.</p>
     </main>
-    <flooter>
+    <footer>
         <h4>Como criar um repositório no GitHub</h4>
         <p>Depois de ter criado a conta na plataforma e instalado o Git na sua máquina, você já pode hospedar o seu primeiro projeto no GitHub.com. Para isso:</p>
-        <ul>
-            <li>
-                <p>Abra o terminal de comando do seu sistema operacional;</p>
-            </li>
-            <li>
-                <p>Dentro da pasta do projeto, digite: git init
-                    O comando acima irá criar toda a estrutura básica do repositório;</p>
-            </li>
-            <li>
-                <p>Para adicionar todos os arquivos alterados à fila de atualizações do repositório, execute o comando: git add .
-                </p>
-            </li>
-            <li>
-                <p>Antes de sincronizar as alterações, configure seu usuário do GitHub com os comandos:
-                    git config --global user.name "seu nome"
-                    git config --global "email no GitHub"</p>
-            </li>
-            <li>
-                <p>
-                    Confirme as alterações com o comando: git commit -m "mensagem"
-                    no qual “mensagem” geralmente é um resumo das alterações.
+        <div class="lista">
+
+            <ul>
+                <li>
+                    <p>Abra o terminal de comando do seu sistema operacional;</p>
+                </li>
+                <li>
+                    <p>Dentro da pasta do projeto, digite: git init
+                        O comando acima irá criar toda a estrutura básica do repositório;</p>
+                </li>
+                <li>
+                    <p>Para adicionar todos os arquivos alterados à fila de atualizações do repositório, execute o comando: git add .
                     </p>
-            </li>
-            <li>
-                <p>Adicione o remote, ou seja, o link para o servidor do seu projeto no GitHub:
-                    git remote add origin usuário no GitHub>/<nome do repositório>.git
-                    </p>
-            </li>
-            <li>
-                <p>Por fim, envie as alterações com o comando:
-                    git push remote origin</p>
-            </li>
-            <li>
-                <p>Se tudo deu certo, será exibido uma mensagem confirmando o envio. Você também pode checar na página do repositório do projeto no GitHub.com.</p>
-            </li>
-        </ul>
-    </flooter>
+                </li>
+                <li>
+                    <p>Antes de sincronizar as alterações, configure seu usuário do GitHub com os comandos:
+                        git config --global user.name "seu nome"
+                        git config --global "email no GitHub"</p>
+                </li>
+                <li>
+                    <p>
+                        Confirme as alterações com o comando: git commit -m "mensagem"
+                        no qual “mensagem” geralmente é um resumo das alterações.
+                        </p>
+                </li>
+                <li>
+                    <p>Adicione o remote, ou seja, o link para o servidor do seu projeto no GitHub:
+                        git remote add origin usuário no GitHub>/<nome do repositório>.git
+                        </p>
+                </li>
+                <li>
+                    <p>Por fim, envie as alterações com o comando:
+                        git push remote origin</p>
+                </li>
+                <li>
+                    <p>Se tudo deu certo, será exibido uma mensagem confirmando o envio. Você também pode checar na página do repositório do projeto no GitHub.com.</p>
+                </li>
+            </ul>
+        </div>
+    </footer>
 </body>
 </html>
